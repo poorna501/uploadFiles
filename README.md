@@ -25,35 +25,5 @@ $ npm start
 [md5_link]: <https://www.npmjs.com/package/md5>
 
 
-
-Routes 
-http://localhost:3000/upload
-
-req: {
-    body: {
-        uploadtype:'mis'
-    },
-    files: [
-        {
-            destination:'temp_path',
-            encoding:'7bit',
-            fieldname:'filename',
-            filename:'d1ec5926e727621204c3098bdf1b0f7f.png',
-            mimetype:'image/png',
-            originalname:'web banner.png',
-            path:'temp_path/d1ec5926e727621204c3098bdf1b0f7f.png'
-        }
-    ]
-}
-response
---------------
-{
-    "status": "success",
-    "data": [
-        {
-            "filename": "web banner.png",
-            "localpath": "/home/ubuntu/images/mis/d1ec5926e727621204c3098bdf1b0f7f.png",
-            "url": "http://img.server.com/mis/d1ec5926e727621204c3098bdf1b0f7f.png",
-        }
-    ]
-}
+### Postman url
+https://www.getpostman.com/collections/31773186f017dfd35be6
