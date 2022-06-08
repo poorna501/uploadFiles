@@ -27,3 +27,7 @@ $ npm start
 
 ### Postman url
 https://www.getpostman.com/collections/31773186f017dfd35be6
+
+Change path in default.jon file, where have to store images in locally
+    "path": "/home/ubuntu/images"
+
