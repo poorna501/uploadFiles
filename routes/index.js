@@ -74,4 +74,34 @@ router.get('/imgDownload/:uploadtype/:img_id', function (req, res) {
   }
 });
 
+//imade details
+router.post('/img_details', function (req, res) {
+  if (req && req.body && req.body.id) {
+    let url = config.get("path") + "/mis/"+ req.body.id;
+    fs.readFile(url, function(err, data) {
+      if (err) {
+        res.json({
+          status: 1000,
+          message: "success",
+          data: err,
+        })
+      } else {
+        res.json({
+          status: 1000,
+          message: "success",
+          data: data,
+        })
+      }
+    });
+  } else {
+    res.json({
+      status: 1000,
+      message: "error while getting image details",
+    })
+  }
+});
+
+
+
+
 module.exports = router
