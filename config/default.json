@@ -1,7 +1,8 @@
 {
 	"server_port": 1001,
 	"baseUrl":"http://img.server.com/",
-	"path": "/home/ubuntu/images",
+	"path": "/home/poorna/images",
 	"path1": "/usr/local/share/application/static-image-server",
-	"temp":"temp_path"
+	"temp":"temp_path",
+	"url_path": "http://localhost:3000/"
 }
