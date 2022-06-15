@@ -1,7 +1,7 @@
 /**
  *
  * @Description Multer File Upload Module
- * @Author Faid Mohammad
+ * @Author poorna
  *
  */
  const multer = require('multer');
